@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <h1>CONTACTO</h1>
+    <fieldset>
+        <form action="/mi-email.php" method="post">
+            <fieldset>
+                Nombre:
+                <input type="text" name="firstname" required>
+                Apellido:
+                <input type="text" name="lastname" placeholder="Los dos apellidos"><br>
+                <legend>Datos de Contacto:</legend>
+                E-mail:
+                <input type="email" name="email" required>
+                Dirección:
+                <input type="text" name="address" placeholder="Calle,nº,ciudad,provincia"><br>
+                Código Postal:
+                <input type="number" name="CP" maxlength="5">
+                Ciudad:
+                <input type="text" name="city">
+                Provincia:
+                <select name="Provincia">
+                    <option value="Select">--Selecciona--</option>
+                    <option value="Jaen">Jaén</option>
+                    <option value="Cordoba">Cordoba</option>
+                    <option value="Sevilla">Sevilla</option>
+                    <option value="Huelva">Huelva</option>
+                    <option value="Cadiz">Cadiz</option>
+                    <option value="Malaga">Málaga</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Almeria">Almeria</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de Reserva:</legend>
+                Fecha:
+                <input type="date" name="date">
+                Hora:
+                <input type="time" name="time">
+                Tipo de Zapato:
+                <select name="room">
+                    <option value="Select">--Selecciona--</option>
+                    <option value="Boda">Boda</option>
+                    <option value="Brogue">Brogue</option>
+                    <option value="Ante">Ante</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="Mandar Datos">
+            </fieldset>
+        </form>
+    </fieldset>
+
+
+    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14935.348195818266!2d-3.62040263573951!3d38.09901268510502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6e9b352e42dff1%3A0x97b5dfe893ac0880!2sHotel%20RL%20An%C3%ADbal!5e0!3m2!1ses!2ses!4v1674731071304!5m2!1ses!2ses" target="mapa">Tienda de Linares</a>
+    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.0006464060382!2d-3.692876752518535!3d40.453108356511486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42288bcf4cb581%3A0xf76ea46d4b7cf2f7!2sTiempo%20Laboral!5e0!3m2!1ses!2ses!4v1674731237871!5m2!1ses!2ses" target="mapa">Tienda de Madrid</a>
+    <iframe name="mapa"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14935.348195818266!2d-3.62040263573951!3d38.09901268510502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6e9b352e42dff1%3A0x97b5dfe893ac0880!2sHotel%20RL%20An%C3%ADbal!5e0!3m2!1ses!2ses!4v1674731071304!5m2!1ses!2ses" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    
+    
+</body>
+</html>
